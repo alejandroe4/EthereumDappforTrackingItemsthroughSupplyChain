@@ -2,6 +2,48 @@
 
 This repository containts an Ethereum DApp that demonstrates a Supply Chain flow between a Seller and Buyer. The user story is similar to any commonly used supply chain process. A Seller can add items to the inventory system stored in the blockchain. A Buyer can purchase such items from the inventory system. Additionally a Seller can mark an item as Shipped, and similarly a Buyer can mark an item as Received.
 
+## Transaction ID and contract address
+Contract
+https://rinkeby.etherscan.io/address/0x4392b17426b420b5b45dac9548a3d1fcd72a68b3
+Address
+https://rinkeby.etherscan.io/address/0x4f7A188234AF63aBd9f0FC5D7f1dB8A10F73Eaf9
+
+## IPFS
+IPFS is not used 
+
+## Project write-up - Libraries
+The `Roles` library was used by different access control contracts for easy add and remove in the supply chain 
+`truffle-hd-wallet-provider` to sign transactions for addresses.
+
+## Program Versions numbers
+Truffle v5.0.2 (core: 5.0.2)
+Solidity - 0.4.24 (solc-js)
+Node v10.24.1
+web3@1.5.2
+
+I also run:
+npm install openzeppelin-solidity@2.4 
+npm install --save @truffle/hdwallet-provider
+
+## Project write-up - UML
+
+### Activity
+![Activity](uml/activity.png)
+
+### Sequence
+![Sequence](uml/sequence.png)
+
+### State
+![State](uml/state.png)
+
+### Classes (Data Model)
+![Data-Model](uml/clases.png)
+
+
+
+
+
+
 The DApp User Interface when running should look like...
 
 ![truffle test](images/ftc_product_overview.png)
