@@ -25,7 +25,7 @@ test
 the line 48 in testsupplychain must be commented //await supplyChain.addFarmer(originFarmerID);
 To run the Front-end that line must be active
 
-(uml/tests.png)
+![tests](uml/tests.png)
 
 ## Project write-up - UML
 
